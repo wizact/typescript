@@ -12,8 +12,5 @@
         "!./node_modules/**/*.ts"
     ],
     "files": [
-        "./sample01.ts",
-        "./sample02.ts",
-        "./sample03.ts"
     ]
 }
