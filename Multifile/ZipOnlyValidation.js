@@ -8,6 +8,7 @@ var Validation;
             return s.length === 5 && /^[0-9]+$/.test(s);
         };
         return ZipCodeOnly;
-    })();
+    }());
     Validation.ZipCodeOnly = ZipCodeOnly;
 })(Validation || (Validation = {}));
+//# sourceMappingURL=ZipOnlyValidation.js.map

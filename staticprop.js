@@ -9,6 +9,7 @@ var Grid = (function () {
     };
     Grid.origin = { x: 0, y: 0 };
     return Grid;
-})();
+}());
 var grid1 = new Grid(1.0);
 grid1.calculateDistanceFromOrigin({ x: 10, y: 10 });
+//# sourceMappingURL=staticprop.js.map

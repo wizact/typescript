@@ -8,6 +8,7 @@ var Validation;
             return /^[A-Za-z]+$/.test(s);
         };
         return LettersOnly;
-    })();
+    }());
     Validation.LettersOnly = LettersOnly;
 })(Validation || (Validation = {}));
+//# sourceMappingURL=LettersOnlyValidation.js.map

@@ -11,7 +11,7 @@ var Greeter = (function () {
         return "Hello, " + this.greeting;
     };
     return Greeter;
-})();
+}());
 var greeter = new Greeter("world");
 // Inheritance
 var Animal = (function () {
@@ -24,7 +24,7 @@ var Animal = (function () {
         console.log(this.name + " moved " + meters + "m.");
     };
     return Animal;
-})();
+}());
 var Snake = (function (_super) {
     __extends(Snake, _super);
     function Snake(name) {
@@ -36,7 +36,7 @@ var Snake = (function (_super) {
         _super.prototype.move.call(this, meters);
     };
     return Snake;
-})(Animal);
+}(Animal));
 var Horse = (function (_super) {
     __extends(Horse, _super);
     function Horse(name) {
@@ -48,8 +48,9 @@ var Horse = (function (_super) {
         _super.prototype.move.call(this, meters);
     };
     return Horse;
-})(Animal);
+}(Animal));
 var sam = new Snake("Sammy the Python");
 var tom = new Horse("Tommy yhe Palomino");
 sam.move();
 tom.move(34);
+//# sourceMappingURL=class.js.map

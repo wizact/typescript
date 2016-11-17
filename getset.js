@@ -12,7 +12,8 @@ var Employee = (function () {
         configurable: true
     });
     return Employee;
-})();
+}());
 var employee = new Employee();
 employee.fullName = "John Smith";
 console.log(employee.fullName);
+//# sourceMappingURL=getset.js.map

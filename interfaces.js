@@ -17,14 +17,15 @@ var Clock = (function () {
         this.currentTime = d;
     };
     return Clock;
-})();
+}());
 var StaticClass = (function () {
     function StaticClass(hour, minute) {
     }
     return StaticClass;
-})();
+}());
 var c = StaticClass;
 var newClock = new c(1, 2);
 var square = {};
 square.color = 'blue';
 square.sideLength = 10;
+//# sourceMappingURL=interfaces.js.map

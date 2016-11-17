@@ -5,7 +5,7 @@ var LettersOnly = (function () {
         return /^[A-Za-z]+$/.test(s);
     };
     return LettersOnly;
-})();
+}());
 var ZipCodeOnly = (function () {
     function ZipCodeOnly() {
     }
@@ -13,7 +13,7 @@ var ZipCodeOnly = (function () {
         return s.length === 5 && /^[0-9]+$/.test(s);
     };
     return ZipCodeOnly;
-})();
+}());
 var validators = {};
 validators['Letters Only'] = new LettersOnly();
 validators['ZipCode Only'] = new ZipCodeOnly();
@@ -22,3 +22,4 @@ validators['ZipCode Only'] = new ZipCodeOnly();
         console.log(validators[name].isValid(s));
     }
 });
+//# sourceMappingURL=Module01.js.map

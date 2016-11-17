@@ -6,3 +6,4 @@ function identity(arg) {
 }
 var myId = identity;
 myId("Hi");
+//# sourceMappingURL=genericTypes.js.map

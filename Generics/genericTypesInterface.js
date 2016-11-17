@@ -3,3 +3,4 @@ function identity(arg) {
 }
 var myId = identity;
 myId("A");
+//# sourceMappingURL=genericTypesInterface.js.map

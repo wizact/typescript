@@ -15,3 +15,4 @@ function func4(firstName, lastName, restOfNames) {
     if (lastName === void 0) { lastName = "Smith"; }
     return firstName + lastName + restOfNames.join(" ");
 }
+//# sourceMappingURL=functionparams.js.map

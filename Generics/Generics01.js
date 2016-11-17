@@ -10,3 +10,4 @@ function identities(arg) {
     console.log(arg.length);
     return arg;
 }
+//# sourceMappingURL=Generics01.js.map

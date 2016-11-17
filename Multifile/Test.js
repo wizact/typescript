@@ -9,3 +9,4 @@ validators['ZipCode Only'] = new Validation.ZipCodeOnly();
         console.log(validators[name].isValid(s));
     }
 });
+//# sourceMappingURL=Test.js.map
