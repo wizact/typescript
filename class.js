@@ -13,7 +13,6 @@ var Greeter = (function () {
     return Greeter;
 }());
 var greeter = new Greeter("world");
-// Inheritance
 var Animal = (function () {
     function Animal(theName, extinct) {
         this.extinct = extinct;

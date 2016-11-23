@@ -1,5 +1,5 @@
-var Validation;
-(function (Validation) {
+var ValidationModule;
+(function (ValidationModule) {
     var LettersOnly = (function () {
         function LettersOnly() {
         }
@@ -8,7 +8,7 @@ var Validation;
         };
         return LettersOnly;
     }());
-    Validation.LettersOnly = LettersOnly;
+    ValidationModule.LettersOnly = LettersOnly;
     var ZipCodeOnly = (function () {
         function ZipCodeOnly() {
         }
@@ -17,14 +17,14 @@ var Validation;
         };
         return ZipCodeOnly;
     }());
-    Validation.ZipCodeOnly = ZipCodeOnly;
-})(Validation || (Validation = {}));
+    ValidationModule.ZipCodeOnly = ZipCodeOnly;
+})(ValidationModule || (ValidationModule = {}));
 var validators = {};
-validators['Letters Only'] = new Validation.LettersOnly();
-validators['ZipCode Only'] = new Validation.ZipCodeOnly();
+validators['Letters Only'] = new ValidationModule.LettersOnly();
+validators['ZipCode Only'] = new ValidationModule.ZipCodeOnly();
 ['Hello', '98052', '101'].forEach(function (s) {
     for (var name in validators) {
-        console.log(validators[name].isValid(s));
+        console.log("Value " + s + " with filter " + name + " yeilds " + validators[name].isValid(s));
     }
 });
 //# sourceMappingURL=Module02.js.map

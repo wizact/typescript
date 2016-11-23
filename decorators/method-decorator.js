@@ -27,9 +27,10 @@ var MethodDecorator;
             __metadata('design:type', Function), 
             __metadata('design:paramtypes', []), 
             __metadata('design:returntype', void 0)
-        ], Greeter.prototype, "greet");
+        ], Greeter.prototype, "greet", null);
         return Greeter;
     }());
-    var g = new Greeter("World");
+    var g = new Greeter("World!");
     console.log(g.greet());
 })(MethodDecorator = exports.MethodDecorator || (exports.MethodDecorator = {}));
+//# sourceMappingURL=method-decorator.js.map

@@ -1,4 +1,4 @@
-module Validation
+module ValidationModule
 {
     export interface StringValidator {
         isValid(s: string): boolean;
@@ -17,12 +17,12 @@ module Validation
     }
 }
 
-var validators: { [s: string]: Validation.StringValidator } = {};
-validators['Letters Only'] = new Validation.LettersOnly();
-validators['ZipCode Only'] = new Validation.ZipCodeOnly();
+var validators: { [s: string]: ValidationModule.StringValidator } = {};
+validators['Letters Only'] = new ValidationModule.LettersOnly();
+validators['ZipCode Only'] = new ValidationModule.ZipCodeOnly();
 
 ['Hello', '98052', '101'].forEach(s => {
     for (var name in validators) {
-        console.log(validators[name].isValid(s));
+        console.log(`Value ${s} with filter ${name} yeilds ${validators[name].isValid(s)}`);
     }
 });

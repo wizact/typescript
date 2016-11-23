@@ -23,8 +23,8 @@ var StaticClass = (function () {
     }
     return StaticClass;
 }());
-var c = StaticClass;
-var newClock = new c(1, 2);
+var staticClock = StaticClass;
+var newClock = new staticClock(1, 2);
 var square = {};
 square.color = 'blue';
 square.sideLength = 10;

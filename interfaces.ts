@@ -59,8 +59,8 @@ class StaticClass {
     constructor(hour: number, minute: number) {}
 }
 
-var c: StaticClockInterface = StaticClass;
-var newClock = new c(1, 2);
+var staticClock: StaticClockInterface = StaticClass;
+var newClock = new staticClock(1, 2);
 
 // Extending interfaces
 interface Shape {

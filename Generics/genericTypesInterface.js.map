@@ -1,1 +1,1 @@
-{"version":3,"file":"genericTypesInterface.js","sourceRoot":"","sources":["genericTypesInterface.ts"],"names":[],"mappings":"AAIA,kBAAqB,GAAM;IACvB,MAAM,CAAC,GAAG,CAAC;AACf,CAAC;AAED,IAAI,IAAI,GAAoB,QAAQ,CAAC;AACrC,IAAI,CAAC,GAAG,CAAC,CAAC"}
+{"version":3,"file":"genericTypesInterface.js","sourceRoot":"","sources":["genericTypesInterface.ts"],"names":[],"mappings":"AAAA,IAAO,oBAAoB,CAW1B;AAXD,WAAO,oBAAoB,EAAC,CAAC;IAK5B,kBAAqB,GAAM;QACvB,MAAM,CAAC,GAAG,CAAC;IACf,CAAC;IAED,IAAI,IAAI,GAAoB,QAAQ,CAAC;IACrC,IAAI,CAAC,GAAG,CAAC,CAAC;AACX,CAAC,EAXM,oBAAoB,KAApB,oBAAoB,QAW1B"}

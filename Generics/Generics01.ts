@@ -1,16 +1,19 @@
-function identity<T>(arg: T): T {
-    if (typeof arg == "number") {
-        return arg;
-    }
+module Generics01 {
 
-    return arg;
-}
+	function identity<T>(arg: T): T {
+	    if (typeof arg == "number") {
+	        return arg;
+	    }
 
-var output1 = identity<string>("Smith");
-var output2 = identity<number>(1);
+	    return arg;
+	}
+
+	var output1 = identity<string>("Smith");
+	var output2 = identity<number>(1);
 
 
-function identities<T>(arg: T[]): T[] {
-    console.log(arg.length);
-    return arg;
+	function identities<T>(arg: T[]): T[] {
+	    console.log(arg.length);
+	    return arg;
+	}
 }

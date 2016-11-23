@@ -1,10 +1,12 @@
-interface GenericIdentity {
-    <T>(arg: T): T;
-}
+module GenericTypeInterface {
+	interface GenericIdentity {
+	    <T>(arg: T): T;
+	}
 
-function identity<T>(arg: T): T {
-    return arg;
-}
+	function identity<T>(arg: T): T {
+	    return arg;
+	}
 
-var myId: GenericIdentity = identity;
-myId("A");
+	var myId: GenericIdentity = identity;
+	myId("A");
+}

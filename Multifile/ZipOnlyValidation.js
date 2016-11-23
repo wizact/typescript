@@ -1,4 +1,3 @@
-/// <reference path="Validation.ts" />
 var Validation;
 (function (Validation) {
     var ZipCodeOnly = (function () {

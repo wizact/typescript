@@ -17,6 +17,6 @@ export module MethodDecorator {
         }
     }
 
-let g = new Greeter("World");
+let g = new Greeter("World!");
 console.log(g.greet());
 }
