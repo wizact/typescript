@@ -1,4 +1,4 @@
-export function BasicTypes() {
+module BasicTypes {
 	// Primitive types
 	var isDone: boolean = false;
 	var height: number = 6;

@@ -1,5 +1,5 @@
-"use strict";
-function BasicTypes() {
+var BasicTypes;
+(function (BasicTypes) {
     var isDone = false;
     var height = 6;
     var name = 'Slim';
@@ -26,6 +26,5 @@ function BasicTypes() {
     function routine() {
         console.log('nothing to return');
     }
-}
-exports.BasicTypes = BasicTypes;
+})(BasicTypes || (BasicTypes = {}));
 //# sourceMappingURL=basictypes.js.map
