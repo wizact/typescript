@@ -1,15 +1,17 @@
-class Employee {
-    private _fullName: string;
+module GetSet {
+	class Employee {
+	    private _fullName: string;
 
-    get fullName(): string {
-        return this._fullName;
-    }
+	    get fullName(): string {
+	        return this._fullName;
+	    }
 
-    set fullName(newName: string) {
-        this._fullName = newName;
-    }
+	    set fullName(newName: string) {
+	        this._fullName = newName;
+	    }
+	}
+
+	var employee = new Employee();
+	employee.fullName = "John Smith";
+	console.log(employee.fullName);
 }
-
-var employee = new Employee();
-employee.fullName = "John Smith";
-console.log(employee.fullName);
